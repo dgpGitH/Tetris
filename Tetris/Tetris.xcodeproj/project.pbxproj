@@ -22,6 +22,16 @@
 		FFA52FC01EDFC1800030522F /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA52FBB1EDFC1800030522F /* theme.mp3 */; };
 		FFA52FC21EDFC19B0030522F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FFA52FC11EDFC19B0030522F /* Sprites.atlas */; };
 		FFA52FC41EDFC67F0030522F /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FC31EDFC67F0030522F /* Array2D.swift */; };
+		FFA52FC61EDFCFE00030522F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FC51EDFCFE00030522F /* Block.swift */; };
+		FFA52FCA1EE00ABD0030522F /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FC91EE00ABD0030522F /* Shape.swift */; };
+		FFA52FCC1EE00B770030522F /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FCB1EE00B770030522F /* SquareShape.swift */; };
+		FFA52FCE1EE00B800030522F /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FCD1EE00B800030522F /* LineShape.swift */; };
+		FFA52FD01EE00B870030522F /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FCF1EE00B870030522F /* TShape.swift */; };
+		FFA52FD21EE00B900030522F /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FD11EE00B900030522F /* JShape.swift */; };
+		FFA52FD41EE00B990030522F /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FD31EE00B990030522F /* LShape.swift */; };
+		FFA52FD61EE00BA30030522F /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FD51EE00BA30030522F /* SShape.swift */; };
+		FFA52FD81EE00BA80030522F /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FD71EE00BA80030522F /* ZShape.swift */; };
+		FFA52FDC1EE014C20030522F /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA52FDB1EE014C20030522F /* Swiftris.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,16 @@
 		FFA52FBB1EDFC1800030522F /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
 		FFA52FC11EDFC19B0030522F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		FFA52FC31EDFC67F0030522F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		FFA52FC51EDFCFE00030522F /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		FFA52FC91EE00ABD0030522F /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		FFA52FCB1EE00B770030522F /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		FFA52FCD1EE00B800030522F /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		FFA52FCF1EE00B870030522F /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		FFA52FD11EE00B900030522F /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		FFA52FD31EE00B990030522F /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		FFA52FD51EE00BA30030522F /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		FFA52FD71EE00BA80030522F /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		FFA52FDB1EE014C20030522F /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +120,18 @@
 				FFA52F8E1EDFBE3C0030522F /* AppDelegate.swift */,
 				FFA52F921EDFBE3C0030522F /* Actions.sks */,
 				FFA52FB41EDFBFF90030522F /* GameScene.swift */,
-				FFA52FC31EDFC67F0030522F /* Array2D.swift */,
 				FFA52F961EDFBE3C0030522F /* GameViewController.swift */,
+				FFA52FC91EE00ABD0030522F /* Shape.swift */,
+				FFA52FCB1EE00B770030522F /* SquareShape.swift */,
+				FFA52FCD1EE00B800030522F /* LineShape.swift */,
+				FFA52FCF1EE00B870030522F /* TShape.swift */,
+				FFA52FD11EE00B900030522F /* JShape.swift */,
+				FFA52FD31EE00B990030522F /* LShape.swift */,
+				FFA52FD71EE00BA80030522F /* ZShape.swift */,
+				FFA52FD51EE00BA30030522F /* SShape.swift */,
+				FFA52FC51EDFCFE00030522F /* Block.swift */,
+				FFA52FC31EDFC67F0030522F /* Array2D.swift */,
+				FFA52FDB1EE014C20030522F /* Swiftris.swift */,
 				FFA52F981EDFBE3C0030522F /* Main.storyboard */,
 				FFA52F9B1EDFBE3C0030522F /* Assets.xcassets */,
 				FFA52F9D1EDFBE3C0030522F /* LaunchScreen.storyboard */,
@@ -243,9 +273,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA52FCC1EE00B770030522F /* SquareShape.swift in Sources */,
 				FFA52FB51EDFBFF90030522F /* GameScene.swift in Sources */,
+				FFA52FD21EE00B900030522F /* JShape.swift in Sources */,
+				FFA52FCA1EE00ABD0030522F /* Shape.swift in Sources */,
+				FFA52FDC1EE014C20030522F /* Swiftris.swift in Sources */,
+				FFA52FCE1EE00B800030522F /* LineShape.swift in Sources */,
 				FFA52FC41EDFC67F0030522F /* Array2D.swift in Sources */,
+				FFA52FD41EE00B990030522F /* LShape.swift in Sources */,
+				FFA52FD61EE00BA30030522F /* SShape.swift in Sources */,
+				FFA52FC61EDFCFE00030522F /* Block.swift in Sources */,
+				FFA52FD01EE00B870030522F /* TShape.swift in Sources */,
 				FFA52F971EDFBE3C0030522F /* GameViewController.swift in Sources */,
+				FFA52FD81EE00BA80030522F /* ZShape.swift in Sources */,
 				FFA52F8F1EDFBE3C0030522F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
